@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sapiens</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="nav">
+            <div id="nav_lft">
+                <img src="https://sapiens.ui8.net/images/logo.svg" alt="">
+            </div>
+            <div id="nav_mdl">
+                <div id="nav_male">
+                    <i class="ri-men-line"></i>
+                    <h5>Male</h5>
+                </div>
+                <div id="nav_femal">
+                    <i class="ri-women-line"></i>
+                    <h5>Female</h5>
+                </div>
+            </div>
+            <div id="nav_rgt">
+                <h4>Export <i class="ri-arrow-drop-down-fill"></i></h4>
+            </div>
+        </div>
+        <div id="left_nav">
+            <div id="walk_nav">
+                <h2><i class="ri-walk-line"></i> Walking</h2>
+            </div>
+            <div id="run_nav">
+                <h2><i class="ri-run-line"></i> Running</h2>
+            </div>
+            <div id="stand_nav">
+                <h2><i class="fa-solid fa-person"></i> Standing</h2>
+            </div>
+            <div id="cycle_nav">
+                <h2><i class="fa-sharp fa-solid fa-person-biking"></i>Cycle</h2>
+            </div>
+        </div>
+        <div id="right_nav">
+            <div id="color_nav">
+                <h2>Colorful <i class="fa-solid fa-palette"></i></h2>
+            </div>
+            <div id="duotone_nav">
+                <h2>Duotone <i class="fa-sharp fa-solid fa-circle-half-stroke"></i></h2>
+            </div>
+            <div id="outline">
+                <h2>Outline<i class="fa-light fa-circle-dashed">
+                        <div id="crl"></div>
+                    </i></h2>
+            </div>
+        </div>
+        
+        
+        <!-- <div id="containerBlack">
+            <div id="bg">
+                <div id="bg_img_box">
+                    <img src="https://sapiens.ui8.net/images/backdrops/outline/1.svg" alt="">
+                </div>
+            </div>
+
+            <div id="charachter">
+                <div id="char_head">
+                    <img src="https://sapiens.ui8.net/images/female/head/duotone/1.svg" alt="">
+                </div>
+                <div id="char_hand">
+                    <img src="https://sapiens.ui8.net/images/female/top/duotone/standing/6.svg" alt="">
+                </div>
+                <div id="char_leg">
+                    <img src="https://sapiens.ui8.net/images/female/bottom/duotone/standing/5.svg" alt="">
+                </div>
+            </div>
+
+            <div id="remix">
+                <h5>Remix <i class="fa-sharp fa-solid fa-xmark"></i></h5>
+                <div id="rem_head">
+                    <img id="rem_head1" src="https://sapiens.ui8.net/images/female/head/duotone/1.svg" alt="">
+                    <img id="rem_head2" src="https://sapiens.ui8.net/images/female/head/duotone/2.svg" alt="">
+                    <img id="rem_head3" src="https://sapiens.ui8.net/images/female/head/duotone/3.svg" alt="">
+                    <img id="rem_head4" src="https://sapiens.ui8.net/images/female/head/duotone/4.svg" alt="">
+                    <img id="rem_head5" src="https://sapiens.ui8.net/images/female/head/duotone/5.svg" alt="">
+                    <img id="rem_head6" src="https://sapiens.ui8.net/images/female/head/duotone/6.svg" alt="">
+                    <img id="rem_head7" src="https://sapiens.ui8.net/images/female/head/duotone/7.svg" alt="">
+                    <img id="rem_head8" src="https://sapiens.ui8.net/images/female/head/duotone/8.svg" alt="">
+                    <img id="rem_head9" src="https://sapiens.ui8.net/images/female/head/duotone/9.svg" alt="">
+                </div>
+                <div id="rem_hand">
+                    <img id="rem_hand1" src="https://sapiens.ui8.net/images/female/top/duotone/walking/1.svg" alt="">
+                    <img id="rem_hand2" src="https://sapiens.ui8.net/images/female/top/duotone/walking/2.svg" alt="">
+                    <img id="rem_hand3" src="https://sapiens.ui8.net/images/female/top/duotone/walking/3.svg" alt="">
+                    <img id="rem_hand4" src="https://sapiens.ui8.net/images/female/top/duotone/walking/4.svg" alt="">
+                    <img id="rem_hand5" src="https://sapiens.ui8.net/images/female/top/duotone/walking/5.svg" alt="">
+                    <img id="rem_hand6" src="https://sapiens.ui8.net/images/female/top/duotone/walking/6.svg" alt="">
+                    <img id="rem_hand7" src="https://sapiens.ui8.net/images/female/top/duotone/walking/7.svg" alt="">
+                    <img id="rem_hand8" src="https://sapiens.ui8.net/images/female/top/duotone/walking/8.svg" alt="">
+                </div>
+                <div id="rem_leg">
+                    <img id="rem_leg1" src="https://sapiens.ui8.net/images/female/bottom/duotone/walking/1.svg" alt="">
+                    <img id="rem_leg2" src="https://sapiens.ui8.net/images/female/bottom/duotone/walking/2.svg" alt="">
+                    <img id="rem_leg3" src="https://sapiens.ui8.net/images/female/bottom/duotone/walking/3.svg" alt="">
+                    <img id="rem_leg4" src="https://sapiens.ui8.net/images/female/bottom/duotone/walking/4.svg" alt="">
+                    <img id="rem_leg5" src="https://sapiens.ui8.net/images/female/bottom/duotone/walking/5.svg" alt="">
+                    <img id="rem_leg6" src="https://sapiens.ui8.net/images/female/bottom/duotone/walking/6.svg" alt="">
+                    <img id="rem_leg7" src="https://sapiens.ui8.net/images/female/bottom/duotone/walking/7.svg" alt="">
+                    <img id="rem_leg8" src="https://sapiens.ui8.net/images/female/bottom/duotone/walking/8.svg" alt="">
+                </div>
+            </div>
+
+            <div id="backdrop">
+                <h5>Backdrop
+                    <div id="cross">
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </div>
+                </h5>
+                <div id="backslide">
+                    <img id="zeroBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/0.svg" alt="">
+                    <img id="oneBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/1.svg" alt="">
+                    <img id="twoBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/2.svg" alt="">
+                    <img id="threeBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/3.svg" alt="">
+                    <img id="fourBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/4.svg" alt="">
+                    <img id="fiveBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/5.svg" alt="">
+                    <img id="sixBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/6.svg" alt="">
+                    <img id="sevenBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/7.svg" alt="">
+                    <img id="eightBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/8.svg" alt="">
+                </div>
+            </div>
+        </div> -->
+
+        <div id="containercolor">
+            <div id="bg">
+                <div id="bg_img_box">
+                    <img src="https://sapiens.ui8.net/images/backdrops/colorful/1.svg" alt="">
+                </div>
+            </div>
+
+            <div id="charachter">
+                <div id="char_head">
+                    <img src="https://sapiens.ui8.net/images/female/head/colorful/6.svg" alt="">
+                </div>
+                <div id="char_hand">
+                    <img src="https://sapiens.ui8.net/images/female/top/colorful/walking/3.svg" alt="">
+                </div>
+                <div id="char_leg">
+                    <img src="https://sapiens.ui8.net/images/female/bottom/colorful/walking/3.svg" alt="">
+                </div>
+            </div>
+
+            <div id="remix">
+                <h5>Remix <i class="fa-sharp fa-solid fa-xmark"></i></h5>
+                <div id="rem_head">
+                    <img id="rem_head1" src="https://sapiens.ui8.net/images/female/head/colorful/1.svg" alt="">
+                    <img id="rem_head2" src="https://sapiens.ui8.net/images/female/head/colorful/2.svg" alt="">
+                    <img id="rem_head3" src="https://sapiens.ui8.net/images/female/head/colorful/3.svg" alt="">
+                    <img id="rem_head4" src="https://sapiens.ui8.net/images/female/head/colorful/4.svg" alt="">
+                    <img id="rem_head5" src="https://sapiens.ui8.net/images/female/head/colorful/5.svg" alt="">
+                    <img id="rem_head6" src="https://sapiens.ui8.net/images/female/head/colorful/6.svg" alt="">
+                    <img id="rem_head7" src="https://sapiens.ui8.net/images/female/head/colorful/7.svg" alt="">
+                    <img id="rem_head8" src="https://sapiens.ui8.net/images/female/head/colorful/8.svg" alt="">
+                    <img id="rem_head9" src="https://sapiens.ui8.net/images/female/head/colorful/9.svg" alt="">
+                </div>
+                <div id="rem_hand">
+                    <img id="rem_hand1" src="https://sapiens.ui8.net/images/female/top/colorful/walking/1.svg" alt="">
+                    <img id="rem_hand2" src="https://sapiens.ui8.net/images/female/top/colorful/walking/2.svg" alt="">
+                    <img id="rem_hand3" src="https://sapiens.ui8.net/images/female/top/colorful/walking/3.svg" alt="">
+                    <img id="rem_hand4" src="https://sapiens.ui8.net/images/female/top/colorful/walking/4.svg" alt="">
+                    <img id="rem_hand5" src="https://sapiens.ui8.net/images/female/top/colorful/walking/5.svg" alt="">
+                    <img id="rem_hand6" src="https://sapiens.ui8.net/images/female/top/colorful/walking/6.svg" alt="">
+                    <img id="rem_hand7" src="https://sapiens.ui8.net/images/female/top/colorful/walking/7.svg" alt="">
+                    <img id="rem_hand8" src="https://sapiens.ui8.net/images/female/top/colorful/walking/8.svg" alt="">
+                </div>
+                <div id="rem_leg">
+                    <img id="rem_leg1" src="https://sapiens.ui8.net/images/female/bottom/colorful/walking/1.svg" alt="">
+                    <img id="rem_leg2" src="https://sapiens.ui8.net/images/female/bottom/colorful/walking/2.svg" alt="">
+                    <img id="rem_leg3" src="https://sapiens.ui8.net/images/female/bottom/colorful/walking/3.svg" alt="">
+                    <img id="rem_leg4" src="https://sapiens.ui8.net/images/female/bottom/colorful/walking/4.svg" alt="">
+                    <img id="rem_leg5" src="https://sapiens.ui8.net/images/female/bottom/colorful/walking/5.svg" alt="">
+                    <img id="rem_leg6" src="https://sapiens.ui8.net/images/female/bottom/colorful/walking/6.svg" alt="">
+                    <img id="rem_leg7" src="https://sapiens.ui8.net/images/female/bottom/colorful/walking/7.svg" alt="">
+                    <img id="rem_leg8" src="https://sapiens.ui8.net/images/female/bottom/colorful/walking/8.svg" alt="">
+                </div>
+            </div>
+
+            <div id="backdrop">
+                <h5>Backdrop
+                    <div id="cross">
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </div>
+                </h5>
+                <div id="backslide">
+                    <img id="zeroBg" src="https://sapiens.ui8.net/images/backdrops/colorful/previews/0.svg" alt="">
+                    <img id="oneBg" src="https://sapiens.ui8.net/images/backdrops/colorful/previews/1.svg" alt="">
+                    <img id="twoBg" src="https://sapiens.ui8.net/images/backdrops/colorful/previews/2.svg" alt="">
+                    <img id="threeBg" src="https://sapiens.ui8.net/images/backdrops/colorful/previews/3.svg" alt="">
+                    <img id="fourBg" src="https://sapiens.ui8.net/images/backdrops/colorful/previews/4.svg" alt="">
+                    <img id="fiveBg" src="https://sapiens.ui8.net/images/backdrops/colorful/previews/5.svg" alt="">
+                    <img id="sixBg" src="https://sapiens.ui8.net/images/backdrops/colorful/previews/6.svg" alt="">
+                    <img id="sevenBg" src="https://sapiens.ui8.net/images/backdrops/colorful/previews/7.svg" alt="">
+                    <img id="eightBg" src="https://sapiens.ui8.net/images/backdrops/colorful/previews/8.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <div id="container">
+            <div id="bg">
+                <div id="bg_img_box">
+                    <img src="https://sapiens.ui8.net/images/backdrops/outline/1.svg" alt="">
+                </div>
+            </div>
+
+            <div id="charachter">
+                <div id="char_head">
+                    <img src="https://sapiens.ui8.net/images/female/head/outline/7.svg" alt="">
+                </div>
+                <div id="char_hand">
+                    <img src="https://sapiens.ui8.net/images/female/top/outline/walking/3.svg" alt="">
+                </div>
+                <div id="char_leg">
+                    <img src="https://sapiens.ui8.net/images/female/bottom/outline/walking/3.svg" alt="">
+                </div>
+            </div>
+
+            <div id="remix">
+                <h5>Remix <i class="fa-sharp fa-solid fa-xmark"></i></h5>
+                <div id="rem_head">
+                    <img id="rem_head1" src="https://sapiens.ui8.net/images/female/head/outline/1.svg" alt="">
+                    <img id="rem_head2" src="https://sapiens.ui8.net/images/female/head/outline/2.svg" alt="">
+                    <img id="rem_head3" src="https://sapiens.ui8.net/images/female/head/outline/3.svg" alt="">
+                    <img id="rem_head4" src="https://sapiens.ui8.net/images/female/head/outline/4.svg" alt="">
+                    <img id="rem_head5" src="https://sapiens.ui8.net/images/female/head/outline/5.svg" alt="">
+                    <img id="rem_head6" src="https://sapiens.ui8.net/images/female/head/outline/6.svg" alt="">
+                    <img id="rem_head7" src="https://sapiens.ui8.net/images/female/head/outline/7.svg" alt="">
+                    <img id="rem_head8" src="https://sapiens.ui8.net/images/female/head/outline/8.svg" alt="">
+                    <img id="rem_head9" src="https://sapiens.ui8.net/images/female/head/outline/9.svg" alt="">
+                </div>
+                <div id="rem_hand">
+                    <img id="rem_hand1" src="https://sapiens.ui8.net/images/female/top/outline/walking/1.svg" alt="">
+                    <img id="rem_hand2" src="https://sapiens.ui8.net/images/female/top/outline/walking/2.svg" alt="">
+                    <img id="rem_hand3" src="https://sapiens.ui8.net/images/female/top/outline/walking/3.svg" alt="">
+                    <img id="rem_hand4" src="https://sapiens.ui8.net/images/female/top/outline/walking/4.svg" alt="">
+                    <img id="rem_hand5" src="https://sapiens.ui8.net/images/female/top/outline/walking/5.svg" alt="">
+                    <img id="rem_hand6" src="https://sapiens.ui8.net/images/female/top/outline/walking/6.svg" alt="">
+                    <img id="rem_hand7" src="https://sapiens.ui8.net/images/female/top/outline/walking/7.svg" alt="">
+                    <img id="rem_hand8" src="https://sapiens.ui8.net/images/female/top/outline/walking/8.svg" alt="">
+                </div>
+                <div id="rem_leg">
+                    <img id="rem_leg1" src="https://sapiens.ui8.net/images/female/bottom/outline/walking/1.svg" alt="">
+                    <img id="rem_leg2" src="https://sapiens.ui8.net/images/female/bottom/outline/walking/2.svg" alt="">
+                    <img id="rem_leg3" src="https://sapiens.ui8.net/images/female/bottom/outline/walking/3.svg" alt="">
+                    <img id="rem_leg4" src="https://sapiens.ui8.net/images/female/bottom/outline/walking/4.svg" alt="">
+                    <img id="rem_leg5" src="https://sapiens.ui8.net/images/female/bottom/outline/walking/5.svg" alt="">
+                    <img id="rem_leg6" src="https://sapiens.ui8.net/images/female/bottom/outline/walking/6.svg" alt="">
+                    <img id="rem_leg7" src="https://sapiens.ui8.net/images/female/bottom/outline/walking/7.svg" alt="">
+                    <img id="rem_leg8" src="https://sapiens.ui8.net/images/female/bottom/outline/walking/8.svg" alt="">
+                </div>
+            </div>
+
+            <div id="backdrop">
+                <h5>Backdrop
+                    <div id="cross">
+                        <i class="fa-sharp fa-solid fa-xmark"></i>
+                    </div>
+                </h5>
+                <div id="backslide">
+                    <img id="zeroBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/0.svg" alt="">
+                    <img id="oneBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/1.svg" alt="">
+                    <img id="twoBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/2.svg" alt="">
+                    <img id="threeBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/3.svg" alt="">
+                    <img id="fourBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/4.svg" alt="">
+                    <img id="fiveBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/5.svg" alt="">
+                    <img id="sixBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/6.svg" alt="">
+                    <img id="sevenBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/7.svg" alt="">
+                    <img id="eightBg" src="https://sapiens.ui8.net/images/backdrops/outline/previews/8.svg" alt="">
+                </div>
+            </div>
+        </div>
+         -->
+        
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"
+        integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
